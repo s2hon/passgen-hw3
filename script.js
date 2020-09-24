@@ -13,12 +13,10 @@
 //needs to enter right value to proceed
   if (userLength<8 || 128<userLength) {
     alert ("please enter a valid number.");
-    return
   }
 
   else if (isNaN(userLength) === true) {
     alert ("please enter a valid number.");
-    return
   }
   else {
     alert ("please choose at least ONE from the following options. Hit ok to countinue");
@@ -40,20 +38,19 @@
     alert ("you must choose at least ONE option.");
   }
 
+  //user selects and log selections to console
   else {
 
-  }
-
-// Assignment Code 
-var generateBtn = document.querySelector("#generate");
+  // Assignment Code 
+  var generateBtn = document.querySelector("#generate");
 
 
-// Add event listener to generate button
-generateBtn.addEventListener("click", writePassword);
+  // Add event listener to generate button
+  generateBtn.addEventListener("click", writePassword);
 
 
-// Write password to the #password input
-function writePassword() {
+  // Write password to the #password input
+  function writePassword() {
   var password = generatePassword();
 
   //end result
@@ -62,66 +59,46 @@ function writePassword() {
   passwordText.value = password;
 
 }
-//where I start//
 
+//generate password
+generatePassword() = function () {
 
+//length of password
+userLength = [i];
 
-  var genRandom = {function randomUpper () {
+//Random selection for variables
 
-    return console.log (alphabet[Math.floor(Math.random()*26)]);
-   
-   }
-   
-   function randomLower () {
-   
-     return console.log ((alphabet[Math.floor(Math.random()*26)]).toLowerCase());
-   
-   }
-   
-   function randomNumeric () {
-     return console.log (numeric[Math.floor(Math.random()*10)]);
-   }
-   
-   function randomSpChar () {
-     return console.log (specialChar[Math.floor(Math.random()*33)]);
-   }
-
-  }
-
-
-
-// Generator Functions
-
-function generatePassword() {
-
-
+for (i=0; i<128; i++) {
+  console.log(genRandom)
 }
 
+var genRandom = function () {
+  function randomUpper () {
 
-while (passSize >=8 && passSize <=128){
-
-  
-}
-
-//user selects and log selections to console
-function reWriteStats() {
-  console.log (
-     requirement.passSize);
-
-   console.log (
-    requirement.lowercase);
-
-   console.log (
-    requirement.uppercase);
-
-   console.log (
-    requirement.numberic);
-
-   console.log (
-     requirement.specialChar) ;
-
-   console.log ("-----------------")
+  return console.log (alphabet[Math.floor(Math.random()*26)]);
+ 
  }
+ 
+ function randomLower () {
+ 
+   return console.log ((alphabet[Math.floor(Math.random()*26)]).toLowerCase());
+ 
+ }
+ 
+ function randomNumeric () {
+   return console.log (numeric[Math.floor(Math.random()*10)]);
+ }
+ 
+ function randomSpChar () {
+   return console.log (specialChar[Math.floor(Math.random()*33)]);
+ }
+
+
+}
+}
+
+
+
 
 
 
