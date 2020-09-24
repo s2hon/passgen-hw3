@@ -21,5 +21,4 @@ Another challenge was to figure out how to quilt all of the functions we learned
 
 I will practice JS more in my free time.
 
-testing
-
+![mypasswordgenerator](screenshot.gif)
