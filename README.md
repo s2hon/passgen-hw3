@@ -21,4 +21,7 @@ Another challenge was to figure out how to quilt all of the functions we learned
 
 I will practice JS more in my free time.
 
+Git Hub: https://github.com/s2hon/passgen-hw3
+Live Website: https://s2hon.github.io/passgen-hw3/
+
 ![mypasswordgenerator](screenshot.gif)
